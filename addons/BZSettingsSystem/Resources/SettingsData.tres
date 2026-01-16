@@ -1,0 +1,6 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://bq463d21fh15j"]
+
+[ext_resource type="Script" uid="uid://dq3rbyklupara" path="res://addons/BZSettingsSystem/Scripts/Data/SettingsData.cs" id="1_5b42q"]
+
+[resource]
+script = ExtResource("1_5b42q")
