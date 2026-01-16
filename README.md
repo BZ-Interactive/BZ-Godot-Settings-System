@@ -34,7 +34,15 @@ A robust, **UI-agnostic C# settings framework** for Godot 4+. This plugin provid
 
 ---
 
-## 📦 Installation
+## � Requirements
+
+- **Godot 4.0 or later**
+- **.NET-enabled Godot build** (not Mono)
+- **Basic C# knowledge** (for customization)
+
+---
+
+## �📦 Installation
 
 1. **Download/Clone** this repository
 2. Copy the `addons/BZSettingsSystem/` folder into your project's `addons/` directory
@@ -267,6 +275,25 @@ Contributions are welcome! Feel free to:
 - **Options Screen**: Display current values and save changes on "Apply"
 - **First-Time Setup**: Detect missing config and show welcome wizard
 - **Accessibility Menu**: Provide colorblind mode selection with live preview
+
+---
+
+## 🐛 Troubleshooting
+
+**Plugin not appearing in Plugins menu?**
+- Ensure you're using a **.NET-enabled build** of Godot (not Mono)
+- Rebuild the C# project: **Build → Build C# Project**
+- Restart Godot
+
+**Settings not saving/loading?**
+- Check that `user://settings.cfg` is writable
+- Verify the plugin is enabled in **Project Settings → Plugins**
+- Check the console for error messages (Debug output)
+
+**Colorblind shader not applying?**
+- The `SetColorblindModeShader()` method is a placeholder
+- You must implement the shader application yourself
+- See the "Implementing Colorblind Shaders" customization section
 
 ---
 
