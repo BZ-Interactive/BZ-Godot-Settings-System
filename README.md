@@ -1,6 +1,6 @@
 # BZ Godot Settings System
 
-[![Godot 4](https://img.shields.io/badge/Godot-4.0+-blue.svg)](https://godotengine.org/)
+[![Godot 4](https://img.shields.io/badge/Godot-4+-blue.svg)](https://godotengine.org/)
 [![Version](https://img.shields.io/badge/version-0.5-orange.svg)](https://github.com/BZ-Interactive/BZ-Godot-Settings-System/releases)
 [![License](https://img.shields.io/github/license/BZ-Interactive/BZ-Godot-Settings-System)](LICENSE)
 
