@@ -1,5 +1,6 @@
 using Godot;
 
+[GlobalClass]
 public partial class SettingsManager : Node
 {
     public static SettingsManager Instance { get; private set; }
@@ -11,6 +12,7 @@ public partial class SettingsManager : Node
     public override void _Ready()
     {
         Instance = this;
+        SettingsData = GD.Load<SettingsData>("res://addons/BZSettingsSystem/Resources/SettingsData.tres");
         SettingsData.LoadSettings();
         SetDisplaySettings();
         base._Ready();

@@ -1,7 +1,7 @@
 # BZ Godot Settings System
 
 [![Godot 4](https://img.shields.io/badge/Godot-4+-blue.svg)](https://godotengine.org/)
-[![Version](https://img.shields.io/badge/version-0.5-orange.svg)](https://github.com/BZ-Interactive/BZ-Godot-Settings-System/releases)
+[![Version](https://img.shields.io/badge/version-1.0-orange.svg)](https://github.com/BZ-Interactive/BZ-Godot-Settings-System/releases)
 [![License](https://img.shields.io/github/license/BZ-Interactive/BZ-Godot-Settings-System)](LICENSE)
 
 A robust, **UI-agnostic C# settings framework** for Godot 4+. This plugin provides a complete backend for managing **Display**, **Audio**, and **Accessibility** settings with automatic persistence via `ConfigFile`. Build any UI you want while the framework handles validation, hardware application, and save/load operations.
