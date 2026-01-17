@@ -1,6 +1,5 @@
 using Godot;
 
-[GlobalClass]
 public partial class SettingsManager : Node
 {
     public static SettingsManager Instance { get; private set; }
